@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".experiencias.ExperienciaMenu">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.besthotels.widgets.header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:text="@string/exp_title"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:src="@drawable/experience" />
+
+
+        <TextView
+            android:id="@+id/btn_excursiones"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:text="@string/exp_obj1"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+
+            android:drawablePadding="10dp"
+            app:drawableStartCompat="@drawable/bullet"
+
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+    <TextView
+        android:id="@+id/btn_actividades"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:text="@string/exp_obj2"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+
+        android:drawablePadding="10dp"
+        app:drawableStartCompat="@drawable/bullet"
+
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+    <TextView
+        android:id="@+id/btn_puntos_interes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:text="@string/exp_obj3"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+
+        android:drawablePadding="10dp"
+        app:drawableStartCompat="@drawable/bullet"
+
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+
+
+</LinearLayout>

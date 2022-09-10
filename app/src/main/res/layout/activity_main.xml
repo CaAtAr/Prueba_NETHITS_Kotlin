@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+
+    <ImageView
+        android:id="@+id/Logo_principal"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+
+        app:srcCompat="@drawable/logo_best_hotels" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:layout_margin="15dp"
+
+        android:orientation="vertical"
+        android:background="@drawable/border_radius_menu"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:text="@string/menu_bienvenido"/>
+
+        <LinearLayout
+            android:id="@+id/btn_espacios"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+
+            android:layout_margin="15dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/border_radius_btn"
+
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="5dp"
+
+                android:src="@drawable/icon_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/menu_espacios"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_gastronomia"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="0dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/border_radius_btn"
+
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="5dp"
+
+                android:src="@drawable/icon_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/menu_gastronomia"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_bienestar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="0dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/border_radius_btn"
+
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="5dp"
+
+                android:src="@drawable/icon_3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/menu_bienestar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_experiencia"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="0dp"
+
+            android:orientation="horizontal"
+            android:background="@drawable/border_radius_btn"
+
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="5dp"
+
+                android:src="@drawable/icon_4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/menu_experiencia"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

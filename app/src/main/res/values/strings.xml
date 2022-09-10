@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BestHotels</string>
+    <string name="menu_bienvenido">Bienvenido al\nPortal de Huésped</string>
+    <string name="menu_espacios">ESPACIOS</string>
+    <string name="menu_gastronomia">GASTRONOMÍA</string>
+    <string name="menu_bienestar">BIENESTAR</string>
+    <string name="menu_experiencia">EXPERIENCIA</string>
+
+    <string name="exp_title">Experiencia</string>
+    <string name="exp_obj1">Excursiones</string>
+    <string name="exp_obj2">Actividades</string>
+    <string name="exp_obj3">Puntos de interés</string>
+
+    <string name="pt_title">Puntos de interés</string>
+    <string name="pt_subtit1">Aeropuerto</string>
+    <string name="pt_subtit2">Núcleo urbano más cercano</string>
+    <string name="pt_subtit3">Playa más cercana</string>
+    <string name="pt_subtit4">Parada de autobús más cercana</string>
+    <string name="pt_content1">Tenerife Sur Reina Sofía (a 26 Km - 21 min)</string>
+    <string name="pt_content2">Adeje (6 Km)</string>
+    <string name="pt_content3">Playa de Ajabo (550 m)</string>
+    <string name="pt_content4">Números línea 471 y 473 (5 min)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
